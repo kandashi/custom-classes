@@ -1,7 +1,8 @@
 Hooks.on("ready", () => {
 
-    //add onto the feature list as demonstrated in the SRD classes 
-    //for items held in the Custom Classes pack use "Compendium.custom-classes.classfeatures.ID_here"
+    // add onto the feature list as demonstrated in the SRD classes 
+    // the syntax is: Compendium.{pack_key}.{pack_name}.{item.id}
+    // for items held in the Custom Classes pack use "Compendium.custom-classes.classfeatures.ID_here"
     CONFIG.DND5E.classFeatures = {
         "barbarian": {
             "subclasses": {
