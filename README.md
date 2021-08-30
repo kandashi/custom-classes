@@ -4,6 +4,8 @@ Custom Classes allows you to relatively easily add features to auto-apply on lev
 
 The command `CustomClasses.exportList()` will save a txt file with all the names and IDs of the items within the Custom Classes Class Features compendium pack, for easy referencing.
 
+Even if you dont have an subclasses coded yet, you must still add a suclass object just leave it empty. If you dont do this it will not work.
+
 Simply format your feature lists as follows:
 
 ### Class Features
